@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+    background-image: url(ASSETS/IMG/LOGO\ YANCE.jpg); height: 186px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header div nav ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px;
+    margin: 16px;
+    list-style: none;
+    font-style: italic;
+}
+nav ul li a{
+    color: rgb(184, 1, 1);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 6px;
+}
+nav ul li a:hover{
+    background-color: rgb(184, 1, 1);
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+body main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  padding: 40px 0 150px;
+}
+
+body.spam {
+  background-image: url(ASSETS/IMG/fondo_7.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.spa-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 2px solid rgb(184, 1, 1);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  max-width: 900px;
+  padding: 40px 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.spa-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+}
+
+.spa-card h2 {
+  color: rgb(184, 1, 1);
+  font-weight: bold;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.video iframe {
+  width: 85%;
+  height: 220px;
+  border-radius: 10px;
+  border: 2px solid rgba(184, 1, 1, 0.3);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video iframe:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+.texto {
+  font-family: "Funnel Sans", sans-serif;
+  font-size: 1.1rem;
+  color: #333;
+  text-align: justify;
+  margin: 20px auto 25px auto;
+  max-width: 800px;
+  column-count: 2;
+  column-gap: 40px;
+}
+
+.boton-contenedor {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.btn {
+  background-color: rgb(184, 1, 1);
+  color: white;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 15px 45px;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.btn:hover {
+  background-color: rgb(140, 0, 0);
+  transform: scale(1.08);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+footer {
+  font-family: "Funnel Sans", sans-serif;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
