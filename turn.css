@@ -12,7 +12,7 @@ body {
 }
 
 header{
-    background-image: url(ASSETS/IMG/LOGO\ YANCE.jpg); height: 186px;
+    background-image: url("ASSETS/IMG/YANCE.jpg"); height: 186px;
     background-repeat: no-repeat;
     background-size: cover;
 }
